@@ -1,0 +1,109 @@
+h1 {
+  color: red;
+  font-size: 50px;
+  font-family: "yu gothic ui light";
+  font-weight: 100;
+}
+header > h4 {
+  color: black;
+  font-size: 25px;
+  font-family: "yu gothic ui light";
+  font-weight: 100;
+  position: relative;
+  top: -20px;
+}
+header > nav {
+  color: gainsboro;
+  font-size: 20px;
+  font-family: "yu gothic ui light";
+  font-weight: 100;
+  position: relative;
+  top: -20px;
+}
+header > nav > a {
+  color: gainsboro;
+}
+h5 {
+  color: LightGray;
+  font-size: 35px;
+  font-family: "yu gothic ui light";
+  font-weight: 100;
+  position: relative;
+  top: 30px;
+}
+h2 {
+  color: black;
+  font-size: 35px;
+  font-family: "yu gothic ui light";
+  font-weight: 100;
+}
+header + section > h5 + h2 + img {
+height: 200px;
+width: 1060px;
+}
+p {
+  font-size: 18px;
+  color: rgb(80,80,80);
+  font-family: "yu gothic ui light";
+  font-weight: 100;
+  line-height: 1.5;
+}
+.firstcharacter {
+font-size: 100px;
+color: LightGray;
+font-family: "yu gothic ui light";
+font-weight: 100;
+float: left;
+transform: scaleY(1);
+position: relative;
+top: -40px;
+height: 75px;
+padding-bottom: 10px;
+}
+section > span > a {
+  color: red;
+  font-family: arial, sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  float: right;
+}
+section + section > h5 + h2 + img {
+  height: 400px;
+  width: 1060px;
+  }
+.horizontal {
+   border-top: 2px solid gainsboro;
+   position: relative;
+   top: 80px;
+}
+footer {
+  position: relative;
+  top: 150px;
+}
+footer > nav {
+  color: red;
+  font-size: 20px;
+  font-family: "yu gothic ui light";
+  font-weight: 200;
+  position: relative;
+  top: -20px;
+}
+footer > nav > a {
+  color: red;
+  text-decoration: none;
+}
+#Vertical a {
+    display: inline-block;
+}
+#Vertical a + a:before {
+    content: " | ";
+    padding: 0 10px;
+    color: gainsboro;
+}
+footer > span {
+  color: gray;
+  font-size: 15px;
+  font-family: "yu gothic ui light";
+  font-weight: 100;
+  padding-bottom: 20px;
+}

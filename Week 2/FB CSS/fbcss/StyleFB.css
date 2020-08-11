@@ -1,0 +1,436 @@
+body {
+  background-color: #e9ebee;
+  font-family: helvetica, arial, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #3b5998;
+  width: 100%;
+  display: inline-block;
+  height: 47px;
+}
+.logo {
+  height: 23px;
+  position: relative;
+  top: -11px;
+  left: 80px;
+  border-radius: 5%;
+}
+
+.navHead > ul > li + img, {
+  height: 30px;
+}
+.navHead > section > ul, .navHead > section > section {
+  list-style-type: none;
+  float: left;
+}
+.searchBar {
+  width: 350px;
+  height: 19px;
+  position: relative;
+  position: relative;
+  left: 47px;
+  top: -6px;
+}
+.searchIcon {
+  height: 23px;
+  position: relative;
+  top: -30px;
+  left: 404px;
+}
+.profilePic {
+  border-radius: 100%;
+  height: 30px;
+  position: relative;
+  top: -8px;
+}
+.bar2 > ul > li > a {
+  color: #1a2947;
+  text-decoration: none;
+}
+.bar2 > ul > li{
+  float: left;
+  display: inline;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+  margin-left: 13px;
+}
+#words {
+  color: white;
+  text-decoration: none;
+}
+#list, .bell {
+  border-right: 2px solid #3e62aa;
+  padding-right: 10px;
+}
+.bar2 {
+  position: relative;
+  left: 264px;
+}
+/* header is done:  */
+/* start second part:  */
+
+.mainSec {
+  float: left;
+  padding-top: 13px;
+  padding-left: 77px;
+  font-family: helvetica, arial, sans-serif
+}
+.profilePic2 {
+  border-radius: 100%;
+  height: 20px;
+}
+.sec1 {
+  display: inline-block;
+}
+.sec1 > p > a {
+  color: #080c15;
+  text-decoration: none;
+}
+.sec1 > p {
+  position: relative;
+  top: -36px;
+  left: 26px;
+  font-size: 14px;
+  width: 127px;
+}
+.icons > ul {
+  list-style-type: none;
+  padding-left: 0px;
+  font-size: 20px;
+  position: relative;
+  top: -53px;
+  left: -10px;
+}
+.blue {
+  color: #007ff0;
+  margin: 4px;
+}
+.green {
+  color: #35907e;
+  margin: 4px;
+}
+.icons > ul > li > a {
+  text-decoration: none;
+  color: #080c15;
+  font-size: 17px;
+  font-weight: 100;
+}
+.short > h2, .explP {
+  font-weight: bold;
+  color: #91969d;
+  margin-bottom: 1px;
+  font-size: 17px;
+}
+.icons2 > li > i, .icons2 > li, .icons2, .explore > ul {
+  color: darkgray;
+  font-size: 18px;
+  padding-left: 0px;
+  list-style-type: none;
+  margin-top: 4px;
+}
+.icons2 > li > a, .explore > ul > li > a {
+  color: #080c15;
+  text-decoration: none;
+  font-size: 17px;
+}
+.short {
+  position: relative;
+  top: -50px;
+  left: -4px;
+}
+.pink {
+  color: #e264ab;
+}
+.purple {
+  color: #806eb4;
+}
+.yellow {
+  color: #806eb4;
+}
+.orange {
+  color: #f57e2b;
+}
+.red {
+  color: #e4335b;
+}
+.explore > ul > li {
+  margin-top: 5px;
+}
+#seeMore > a {
+  color: #8295bc;
+}
+.explore {
+  position: relative;
+  top: -50px;
+}
+
+ /* Ends left bar */
+ /* Starts Middle */
+
+.middle {
+  width: 43%;
+  float: left;
+  position: relative;
+  top: 15px;
+}
+
+.profilePic3{
+  border-radius: 100%;
+  height: 40px;
+  position: relative;
+  top: -64px;
+  left: 13px;
+}
+.top {
+  height: 34px;
+  padding-top: -8px;
+}
+.top, .top > p {
+  border: 1px solid #f5f6f7;
+  background-color: #f5f6f7;
+  border-radius: 3%;
+  font-size: 14px;
+  font-weight: 600;
+  color: #455A64;
+}
+.top > p {
+  padding-left: 5px;
+  position: relative;
+  top: -5px;
+}
+.post {
+  width: 99%;
+  border: 1px solid #e9ebee;
+  height: 81px;
+  font-size: 16px;
+  color: black;
+}
+.bottomPart, .bottomList  {
+  background-color: #ffffff;
+  list-style-type: none;
+  overflow: auto;
+}
+.bottomList > li {
+  float: left;
+}
+.bottomPart {
+  position: relative;
+  top: -44px;
+  width: 100%;
+}
+.item {
+  background-color: #f5f6f7;
+  margin-left: 10px;
+  border: 10px solid #f5f6f7;
+  border-radius: 35%;
+  position: relative;
+  left: -30px;
+  font-size: 13px;
+}
+.item > a {
+  text-decoration: none;
+  color:  #080c15;
+}
+
+ /* Stories section */
+.stories {
+  width: 43%;
+  float: left;
+  background-color: #ffffff;
+  height: 311px;
+  position: relative;
+  top: -15px;
+}
+.stories > p, .stories > h2 {
+  color: #91969d;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.stories > a {
+  text-decoration: none;
+  color: #849ac5;
+  float: right;
+  position: relative;
+  top: -50px;
+  margin-right: 5px;
+}
+.profilePic4, .cat1,.cat2, .cat3{
+  height: 230px;
+  width: 24%;
+  border-radius: 8%;
+  float: left;
+  border: 2px solid white;
+  position: relative;
+  left: 3px;
+}
+.cat3 {
+  top: -50px;
+}
+.cat4, .cat5, .cat6 {
+  border: 5px solid blue;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  float: right;
+  position: relative;
+  top: -270px;
+  margin-right: 85px;
+}
+.cat6 {
+  position: relative;
+  left: -10px;
+}
+.storyText > i {
+  color: white;
+  font-size: 40px;
+  float: left;
+  position: relative;
+  top: -320px;
+  left: 13px;
+}
+.storyText {
+  color: red;
+  font-weight: bold;
+  float: left;
+  height: 1px;
+}
+.add {
+  color: white;
+  font-weight: bold;
+  float: left;
+  position: relative;
+  top: -140px;
+  left: -20px;
+}
+.storyP {
+  float: left;
+  position: relative;
+  top: -170px;
+  margin: 45px;
+  color: white;
+  font-weight: bold;
+}
+/* Stories section done */
+
+/* Memories section start */
+.memories {
+  background-color: white;
+  width: 43%;
+  float: left;
+}
+.memories > img {
+  width: 100%;
+}
+.memories > h3, .memories > p {
+  margin-left: 10px;
+}
+/* Memories section end */
+
+/* 4th section start */
+.fourthSection{
+  float: left;
+  margin-left: 15px;
+  width: 20%;
+  position: relative;
+  top: -545px;
+}
+.birthdays {
+  background-color: white;
+  height: 30px;
+}
+.birthdays > p {
+  padding-top: 5px;
+}
+.languages {
+  margin-top: 10px;
+  background-color: white;
+}
+.languageList {
+  list-style-type: none;
+  padding-left: 0px;
+  display: inline;
+}
+.languageList > li {
+  display: inline-block;
+  font-size: 13px;
+}
+.rightNav {
+  display: inline;
+}
+.plus {
+  margin-left: 80px;
+  font-size: 25px;
+  color: gray;
+  float: right;
+}
+.bottomstuff {
+  padding-top: 5px;
+  background-color: #e9ebee;
+  font-size: 13px;
+  color: gray;
+}
+a {
+  text-decoration: none;
+}
+
+/* end fourth section */
+
+/* start right section */
+.rightSec {
+  border: 1px solid gainsboro;
+  float: right;
+  width: 15%;
+  position: relative;
+  top: -547px;
+}
+.instant, .yourG, .pages, .contacts {
+  color: gray;
+  font-weight: bold;
+  font-size: 12px;
+}
+.instant > p > span{
+  padding-left: 60px;
+}
+.game {
+  height: 42px;
+  border-radius: 100%;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.yourG > p > span {
+  padding-left: 75px;
+}
+.yourG{
+  border-top: 1px solid gainsboro;
+}
+.pages {
+  border-top: 1px solid gainsboro;
+}
+.catPage{
+  height: 42px;
+  width: 42px;
+  border-radius: 100%;
+}
+.catText {
+  margin-left: 15px;
+  position: relative;
+  top: -15px;
+}
+
+.catContact{
+  height: 42px;
+  width: 42px;
+  border-radius: 100%;
+}
+.catName {
+  margin-left: 15px;
+  position: relative;
+  top: -15px;
+}
+.contacts > p {
+  padding-bottom: 1px;
+  padding-top: 0px;
+}

@@ -1,0 +1,171 @@
+body {
+  background-color: #f5f6f8;
+}
+header {
+  width: 100%;
+  background-color: #1977f3;
+  overflow: auto;
+  height: 91px;
+}
+h1 {
+  margin: 0px;
+}
+.headerNav > ul {
+  list-style-type: none;
+}
+.headerNav > ul > li {
+  float: left;
+}
+.logo {
+  height: 58px;
+  position: relative;
+  top: -5px;
+  left: 76px
+}
+.email {
+  padding-left: 500px;
+}
+.headerNav > p, .headerNav > p > a {
+  float: right;
+  padding-right: 40px;
+  color: white;
+  text-decoration: none;
+}
+.email > input, .password > input {
+  border-radius: 3%;
+  border: 0px;
+  height: 23px;
+  width: 250px;
+}
+.password, .logBut {
+  padding-left: 10px;
+}
+.logBut {
+  background-color: #0d52b1;
+  border-radius: 10%;
+  border: 0px;
+  color: white;
+  margin-left: 10px;
+  height: 23px;
+  width: 75px;
+}
+.mainSec {
+  float: left;
+  width: 100%;
+}
+.left, .right{
+  width: 49%;
+  float: left;
+  padding-top: 30px;
+}
+.content, .content2 {
+  padding-left: 100px;
+}
+h2 {
+  font-family: sans-serif;
+  width: 420px;
+  font-size: 30px;
+}
+.content > p {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: black;
+}
+#icon {
+  color: lightgray;
+  font-size: 23px;
+  padding-right: 5px;
+}
+.bold {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.content2 {
+ padding-left: 40px;
+}
+.content2 > h2 {
+  margin-bottom: 5px;
+}
+.content2 > p {
+  color: gray;
+  font-family: sans-serif;
+  margin-top: 0px;
+}
+.names {
+
+  display: inline-block;
+}
+.first > input, .last > input {
+  display: inline;
+}
+
+ .forms > form > input {
+  float: left;
+}
+.first > input, .last > input{
+  margin-right: 15px;
+  padding-right: 80px;
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 2%;
+  margin-bottom: 10px;
+}
+.number > input, .newPass > input {
+  height: 25px;
+  padding-right: 345px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 2%;
+}
+.forms2, .forms3 {
+  float: left;
+  width: 100%;
+}
+.forms2 > p, .forms3 > p {
+  color: gray;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+select, .forms3 button {
+  height: 35px;
+  width: 150px;
+  margin-right: 25px;
+}
+.forms3 button {
+  background-color: white;
+  border: 1px solid gray;
+}
+.forms3 label {
+  float: left;
+  padding-right: 0px;
+}
+.forms3 input {
+  float: right;
+}
+.bottomPart {
+  float: left;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: gray;
+}
+.bottomPart a {
+  text-decoration: none;
+}
+.lastText a {
+  color: black;
+  font-weight: bold;
+}
+.lastText {
+  color: black;
+}
+.bottomPart button {
+  background-color: #00a400;
+  height: 45px;
+  width: 35%;
+  border: 1px solid #70c471;
+  border-radius: 3%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 33%;
+}

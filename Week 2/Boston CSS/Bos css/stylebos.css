@@ -1,0 +1,217 @@
+body{
+  box-sizing: border-box;
+}
+header {
+  background-color: black;
+  width: 100%;
+  overflow: auto;
+}
+.logo {
+  float: left;
+  margin-left: 100px;
+}
+.navTop a {
+  color: white;
+  text-decoration: none;
+}
+.navList > li {
+  float: left;
+  margin-right: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+.navList{
+float: left;
+}
+.news {
+  margin-left: 200px;
+}
+.left {
+  float: left;
+  width: 60%;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.left > section > h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  border-bottom: 3px solid #a63032;
+  color: #252628;
+}
+.pats, .twoSmalls {
+  float: left;
+  width: 70%;
+}
+.patsImg {
+  width: 100%;
+  height: 240px;
+}
+.pats a {
+  text-decoration: none;
+  color: #2f2626;
+  font-family: sans-serif;
+  font-size: 16px;
+
+}
+.pats h2 {
+  margin-top: 0px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.small1, .small2 {
+  width: 48%;
+  float: left;
+  padding-top: 0px;
+}
+.small2{
+  margin-left: 16px;
+}
+.shoes, .pelota {
+  width: 100%;
+  height: 150px;
+}
+.twoSmalls a, .twoSmalls h3 {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 3px;
+}
+.leftSideBar {
+  float: right;
+  width: 29%;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.leftSideBar a {
+  text-decoration: none;
+  color: black;
+}
+.leftSideBar h5 {
+  margin-bottom: 20px;
+
+}
+.leftSideBar p {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+#love, .leftSideBar h5 {
+  color: #bb4541;
+}
+.health {
+  margin-top: 0px;
+}
+.right {
+  float: left;
+  width: 24%;
+  margin-top: 100px;
+  margin-left: 15px;
+}
+.ad {
+  margin-left: 25px;
+}
+.ad img{
+  height: 270px;
+  width: 270px;
+}
+.list h4 {
+  border-bottom: 3px solid #bb4541;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-bottom: 0px;
+}
+.ordered a {
+  text-decoration: none;
+  color: black;
+}
+.ordered {
+  padding-left: 20px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.ordered li {
+  margin-bottom: 25px;
+}
+.bottom {
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+  float: left;
+  margin-left: 100px;
+  width: 60%;
+}
+.car, .bottomRight {
+  width: 49%;
+  float: left;
+  padding-top: 0px;
+}
+.bottomRight {
+  margin-left: 10px;
+}
+.car h3 {
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.corchete {
+  color: #c1482f;
+}
+.more {
+  font-size: 18px;
+  font-weight: normal;
+}
+.ford {
+  width: 99%;
+}
+.car h2 {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.bottomRight p {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 45px;
+}
+.bottomRight {
+  padding-top: 30px;
+}
+footer {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+.footerLeft, .footerLeft a {
+  float: left;
+  font-size: 30px;
+  color: #9b1518;
+}
+.footerLeft i {
+  margin-right: 15px;
+}
+.footerRight {
+  float: right;
+}
+.footerRight a, .footerRight ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+.footerRight li {
+  float: left;
+  border-right: 1px solid gainsboro;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footerRight p {
+  color: black;
+  padding-left: 85px;
+  font-family: sans-serif;
+}

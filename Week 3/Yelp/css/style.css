@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.sec1 {
+  float: left;
+  overflow: auto;
+  width: 100%;
+  background-image: url("../img/background.jpg");"
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.list1 li {
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  float: left;
+  margin-right: 5%;
+  margin-top: 50px;
+}
+#hamburger {
+  display: none;
+}
+
+.log {
+  margin-left: 50%;
+
+}
+.sign {
+  background-color: transparent;
+  padding: 5px;
+  color: white;
+}
+.sec1 img {
+  margin-left: 41%;
+  width: 17%;
+  margin-top: 50px;
+}
+.sec1 input {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin-top: 50px;
+}
+.burgers {
+  margin-left: 23%;
+
+}
+.search {
+  background-color: #d32323;
+  border: none;
+  color: white;
+  padding: 12px;
+  margin-top: 50px;
+}
+.under li {
+  display: inline-block;
+  float: left;
+  color: white;
+  font-weight: 900;
+  margin-right: 5%;
+}
+.under {
+  margin-left: 23%;
+  margin-bottom: 250px;
+}
+.p1 {
+  float: left;
+  width: 100%;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+.sec1 p > span {
+  font-weight: 100;
+}
+/* sec 1 ends */
+
+.sec2 {
+  float: left;
+  overflow: auto;
+  width: 100%;
+  text-align: center;
+}
+.sec2 li {
+  display: inline-block;
+  float: left;
+  margin-right: 5%;
+  color: gray;
+}
+.sec2 h3, .sec3 h3 {
+  color: #c7343d;
+  margin-top: 80px;
+}
+.sec2 li:first-child{
+  margin-left: 12%;
+}
+
+/* sec 2 ends */
+.sec3 {
+  float: left;
+  width: 100%;
+  text-align: center;
+  overflow: auto;
+}
+.sec3 section {
+  width: 27%;
+  float: left;
+  border: 1px solid gainsboro;
+  margin-left: 5%;
+  text-align: left;
+}
+.sec3 > h3 > span {
+  display: none;
+}
+
+.sec3 img {
+  width: 100%;
+}
+
+.sec3 p {
+  margin-left: 2%;
+}
+.blue {
+  color: #216da4;
+  font-weight: 700;
+}
+.stars {
+  color: orange;
+}
+.reviews {
+  color: gray;
+}
+.fire {
+  color: red;
+}
+.hotNew {
+  float: left;
+  width: 95%;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+/* sec3 ends */
+
+.sec4 {
+  float: left;
+  overflow: auto;
+  background-color: #f5f5f5;
+  width: 100%;
+  text-align: center;
+}
+.sec4 img {
+  float: left;
+  width: 20%;
+  margin-left: 4%;
+  margin-bottom: 40px;
+}
+.sec4 h3 {
+  color: #c7343d;
+  margin-top: 40px;
+}
+ /* sec4 ends */
+
+
+/* Media queries start */
+@media screen and (max-width: 640px) {
+  #hamburger {
+    display: inline-block;
+  }
+  .list1 .noShow {
+    display: none;
+  }
+  .log {
+    margin-left: 60%;
+  }
+  .under span {
+    display: none;
+  }
+  .under li {
+    margin-right: 15%;
+  }
+  .sec2 .hide, .sec3 .hide {
+    display: none;
+  }
+  .sec2 li {
+    margin-right: 3%;
+}
+  .sec3 > h3 > span {
+    display: inline-block;
+    color: blue;
+  }
+  .hotNew {
+    display: none;
+  }
+}
+@media (min-width: 641px) and (max-width: 800px) {
+#hamburger {
+  display: inline-block;
+}
+.list1 .noShow {
+  display: none;
+}
+.log {
+  margin-left: 60%;
+}
+.under span {
+  display: none;
+}
+.under li {
+  margin-right: 15%;
+}
+.sec2 .hide {
+  display: none;
+}
+.sec2 li {
+  margin-left: 7%;
+}
+.food p {
+  display: none;
+}
+.sec3 .food {
+  width: 30%;
+}
+.sec3 .food1 {
+  margin-left: 20%;
+}
+
+
+}
+
+@media (min-width: 803px) and (max-width: 1000px) {
+  #hamburger {
+    display: inline-block;
+  }
+  .list1 .noShow {
+    display: none;
+  }
+  .log {
+    margin-left: 60%;
+  }
+  .under span {
+    display: none;
+  }
+  .under li {
+    margin-right: 15%;
+  }
+  .sec2 .hide {
+    display: none;
+  }
+  .sec2 li {
+    margin-left: 7%;
+  }
+}

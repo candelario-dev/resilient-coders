@@ -1,0 +1,167 @@
+a {
+  text-decoration: none;
+}
+
+
+.left{
+  float: left;
+  overflow: auto;
+  width: 70%;
+  font-family: sans-serif;
+}
+.trump {
+  background-image: url(../trump.png);
+  width: 100%;
+  float: left;
+}
+.words {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+.otherWords {
+  float: right;
+  width: 40%;
+
+}
+.words h2, .otherWords{
+  color: white;
+  font-weight: bold;
+}
+.words p {
+color: yellow;
+}
+.words span {
+  color: white;
+}
+.otherWords h3 {
+  font-size: 15px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  text-align: center;
+  font-weight: bold;
+}
+.road {
+  border: 2px solid gainsboro;
+  width: 20%;
+  float: left;
+  margin-top: 11px;
+  font-size: 18px;
+}
+.road img{
+  width: 100%;
+}
+.road a {
+color: black
+}
+.road h3 {
+  width: 90%;
+}
+.two {
+  width: 40%;
+  margin-top: 8px;
+  float: right;
+  font-size: 18px;
+}
+.conser, .jeff {
+  border: 1px solid gainsboro;
+  margin-top: 3px;
+  padding-bottom: 40px;
+}
+.conser a, .conser {
+  color: black;
+}
+.jeff, .jeff a {
+  background-color: #660033;
+  color: white;
+}
+.two span {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 100;
+}
+.ad {
+  float: left;
+  width: 100%;
+  background-color: gainsboro;
+}
+.purple, .help{
+  width: 49%;
+}
+.purple, .purple a {
+  float: left;
+  background-color: #320a3f;
+  color: white;
+}
+.help {
+  float: left;
+  color: #320a3f;
+  font-size: 30px;
+  text-align: center;
+}
+.help h6, .purple h6{
+  margin: 0;
+}
+.purple h6 {
+  font-size: 25px;
+}
+.right {
+  float: right;
+  width: 29%;
+}
+header {
+  background-color: #660033;
+}
+.header1 a {
+  color: white;
+}
+.logo{
+  margin: 0;
+}
+.header {
+  float: left;
+}
+.header a {
+  width: 49%;
+}
+.user {
+  padding-left: 170px;
+}
+i {
+  padding-right: 15px;
+}
+.header2 {
+  background-color: #281b21;
+  color: white;
+}
+.list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.list a {
+  color: black;
+  font-family: sans-serif;
+}
+.list span {
+  color: gray;
+  margin: 0;
+  font-size: 12px;
+}
+.list h4 {
+  margin: 10px;
+}
+.list li {
+  border: 1px solid gainsboro;
+}
+footer{
+  float: left;
+  width: 100%;
+  background-color: #222222;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+footer > p > a {
+  color: yellow;
+  text-decoration: underline;
+}

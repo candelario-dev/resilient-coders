@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+header, footer {
+  height: 120px;
+  border: 2px solid red;
+  clear: both;
+}
+.class1, .class2, .class3 {
+  height: 120px;
+  width: 33.333%;
+  border: 2px solid black;
+  float: left;
+}
+.class4 {
+  height: 180px;
+  width: 60%;
+  border: 2px solid purple;
+  float: left;
+}
+.class5 {
+  height: 180px;
+  width: 40%;
+  border: 2px solid blue;
+  float: left;
+}

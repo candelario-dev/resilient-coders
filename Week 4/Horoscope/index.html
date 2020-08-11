@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Horoscope</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div id = "first">
+      <h1>What is your Avatar: The Last Airbender zodiac sign?</h1>
+    </div>
+    <h2>Enter your birthday and see which character you are!</h2>
+    <input type="number" id="month" min="1" max="12" placeholder="Month">
+    <input type="number" id="day" min="1" max="31" placeholder="Day">
+    <button id="butt" onclick="zodiacChoose()" type="button" name="button">Find your zodiac sign!</button>
+    <p id="signChar"> What is your destiny...?</p>
+
+
+    <p id="pic"></p>
+
+    <p id="description"></p>
+    
+    <script src="./js/main.js"></script>
+  </body>
+</html>

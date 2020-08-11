@@ -1,0 +1,45 @@
+header {
+  background-color: #FFDBE9;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 20px;
+}
+.spans span {
+  margin: 10px;
+  font-weight: bold;
+}
+.about {
+  float: left;
+  width: 30%;
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: #FEC5E5;
+}
+.summary {
+    float: left;
+    width: 69%;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: #F0D8D8;
+}
+.skills {
+float: left;
+width: 69%;
+font-size: 18px;
+font-family: sans-serif;
+background-color: #FFD8F0;
+}
+.education {
+float: left;
+width: 69%;
+font-size: 18px;
+font-family: sans-serif;
+background-color: #FFF0D8;
+}
+.work {
+  float: left;
+  width: 100%;
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: #D8A8A8;
+}
