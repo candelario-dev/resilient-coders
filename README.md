@@ -3,4 +3,5 @@
 
 Link to repository:https://github.com/candelario-dev/resilient-coders
 
-![RC Logo](../images/rclogo.png)
+![rcLogo](https://user-images.githubusercontent.com/69063941/90573076-7f3eaa00-e183-11ea-896c-4ea26b3df7b8.png)
+
