@@ -49,6 +49,59 @@ img {
   float: left;
   max-width: 100%;
   max-height: 100%;
+}
 
+@media only screen and (max-width: 500px) {
 
+body {
+  background-position: center;
+  background-size: cover;
+}
+  h1 {
+    font-size: 2rem;
+    color: #b9a782;
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    margin-top: 60px;
+  }
+    h2 {
+    font-size: 1.5rem;
+  }
+
+  input{
+    width: 40%;
+    float: left;
+    padding: 20px;
+  }
+  #month {
+    margin-left: 8%;
+    margin-right: 4%;
+  }
+  input + button {
+    width: 50%;
+    float: left;
+    margin: 20px 25%;
+  }
+  #signChar{
+    font-size: 1.8rem;
+    clear: both;
+  }
+  #description{
+    font-size: 1rem;
+    float: left;
+    width: 40%;
+    margin-right: 5%;
+    }
+  #pic{
+    float: left;
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 40%;
+  }
+  img {
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+  } 
 }
