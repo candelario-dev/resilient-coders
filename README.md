@@ -6,7 +6,7 @@ Link to repository:https://github.com/candelario-dev/resilient-coders
 ![resilient+coders](https://user-images.githubusercontent.com/69063941/90573743-338d0000-e185-11ea-8d7c-5bd88335589b.jpg)
 
 ## How It's Made
-####### Tech used: HTML, CSS, JavaScript
+###### Tech used: HTML, CSS, JavaScript
 This is a compilation of projects and practice-code utilized in my time in the resilientcoders.org bootcamp as a part of the 2020b cohort. The most used languages to do these projects are HTML5, CSS3, and Javascript.
 
 You're welcome to take a look!
