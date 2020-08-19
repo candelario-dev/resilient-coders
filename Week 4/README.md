@@ -10,6 +10,6 @@ We used different things such as loops, conditionals, functions, etc., combined 
 This week contains the following projects:
 * Calculator: A robot themed calculator that runs 4 simple mathematical functions.
 * FizzBuzz: A simple program that runs in the console.
-* Horoscope: An Avatar: The Last Aibender themed horoscope program.
+* Horoscope: An Avatar: The Last Airbender themed horoscope program.
 * Looping Triangle: A simple program that runs in the console.
 * RPS: A rock, paper, scissors simulator.
